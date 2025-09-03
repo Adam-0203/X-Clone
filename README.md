@@ -1,23 +1,19 @@
 # xClone
 
-This template should help get you started developing with Vue 3 in Vite.
+xClone is a social media web application built with **Vite** and **Firebase**. It allows users to create, view, and interact with posts in real-time.
 
-## Recommended IDE Setup
+**Live Demo:** [https://xclone-e08b1.web.app/](https://xclone-e08b1.web.app/)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Features
+- **Add Posts:** Users can create new posts with content and categories.  
+- **Reply to Posts:** Comment and engage in discussions on posts.  
+- **Like Posts:** Express appreciation for posts with likes.  
+- **Edit & Delete Posts:** Manage your own posts easily.  
+- **Home Page Feed:** View all posts dynamically, updated in real-time.  
+- **User Authentication:** Sign up, log in, and manage sessions with Firebase Authentication.  
+- **Realtime Database:** All posts, replies, and likes are stored and synced via Firebase Firestore.  
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
+## Technologies
+- **Frontend:** Vite, Vue 3 (Composition API), Bootstrap-Vue  
+- **Backend & Database:** Firebase Authentication, Firestore, Firebase Functions  
+- **Hosting:** Firebase Hosting 
