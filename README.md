@@ -16,4 +16,6 @@ xClone is a social media web application built with **Vite** and **Firebase**. I
 ## Technologies
 - **Frontend:** Vite, Vue 3 (Composition API), Bootstrap-Vue  
 - **Backend & Database:** Firebase Authentication, Firestore, Firebase Functions  
-- **Hosting:** Firebase Hosting 
+- **Hosting:** Firebase Hosting
+
+Note: The src/firebase.js file containing the firebaseConfig has been excluded from this repository for security reasons. You will need to provide your own configuration to run the project locally.
